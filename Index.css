@@ -1,0 +1,22 @@
+.custom-input {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    background-color:aquamarine;
+    }
+
+
+.custom-input::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+   
+}
+   
+.responsive-form {
+    display: flex;
+    flex-direction: column;
+   
+}
